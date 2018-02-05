@@ -25,7 +25,7 @@ Add the service provider to your `config/app.php` providers array:
 Then finally, publish the config files:
 
 ```php
-php artisan vendor:publish --provider=PodPoint\JsLang\Providers\ServiceProvider
+php artisan vendor:publish --provider="PodPoint\JsLang\Providers\ServiceProvider"
 ```
 
 ## Usage

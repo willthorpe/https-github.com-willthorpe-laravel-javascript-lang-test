@@ -17,7 +17,7 @@ class ServiceProvider extends LaravelServiceProvider
     public function boot(Factory $view)
     {
         $this->publishes([
-            __DIR__ . '/../config/javascript.php' => config_path('javascript.php'),
+            __DIR__ . '/../../config/javascript.php' => config_path('javascript.php'),
         ]);
 
         $view->composer('*', ViewComposer::class);
