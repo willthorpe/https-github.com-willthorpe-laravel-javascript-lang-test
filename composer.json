@@ -1,5 +1,5 @@
 {
-  "name": "pod-point/laravel-javascript-lang",
+  "name": "willthorpe/laravel-javascript-lang",
   "description": "Laravel package that exposes translations and routes to JavaScript",
   "keywords": ["laravel", "javascript", "language", "translations", "routes"],
   "type": "library",
